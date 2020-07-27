@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    </head>
+    
+    <body>
+    <div class="container">
+        <form action="/dashboard" method="post" >
+        <input type="text" name="Club" placeholder="Club Name">
+        <input type="text" name="Country" placeholder="Country">
+            
+            <button class="btn btn-lg upload-btn" type="button">Upload File</button>
+            <button>Add Group</button>
+            
+            <input type="file" name="upload" id="upload-input" style="display: none">
+        </form>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="/js/upload.js"></script>
+    </body>
+</html>
